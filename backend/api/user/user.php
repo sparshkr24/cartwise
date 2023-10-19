@@ -1,5 +1,5 @@
 <?php
-include('../includes/db_connection.php');
+include('../../includes/db_connection.php');
 
 // Function to get all users or a specific user by user_id
 function getUserData($connection, $user_id = null) {
